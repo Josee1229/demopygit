@@ -5,7 +5,7 @@ def bubbleSort(list):
       if list[j]>list[j+1]:
         list[j],list[j+1] = list[j+1],list[j]
 
-list = [12,29,41,3,2,5234,34,153,53]
+list = [5,2,3,5,2,45,23,4,12,41,12]
 print(list)
 bubbleSort(list)
 print(list)
